@@ -10,7 +10,7 @@ def add(x, y):
     return x + y
 
 @app.task
-def count(range):
-    for i in range(range):
+def count(rng):
+    for i in range(rng):
         print(i)
         sleep(1)
